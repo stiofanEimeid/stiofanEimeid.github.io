@@ -17,24 +17,37 @@ body {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
         grid-template-rows: auto 5fr 1fr;
-}
+	}
+	
+header {
+	grid-column: span 12;
+	}
+	
+aside {
+	grid-column: span 4;
+	}
+main {
+	grid-column: span 8;
+	}
+	
+footer {
+	grid-column: span 12;
+       }
 }
 
 header {
-	 grid-column: span 12;
          background: #1a1a1a;
 	 text-align: center;
 	 border-bottom: 2px solid white;
 }
+
 aside {
-    grid-column: span 4;
     background: #ccad00;
     padding: 10px 10px;
     color: white;
    
 }
 main {
-    grid-column: span 8;
     background: gray;
     display: flex;
     flex: 1;
@@ -43,7 +56,6 @@ main {
 }
 
 footer {
-    grid-column: span 12;
     background: #1a1a1a;
     display: flex;
     justify-content: space-around;
