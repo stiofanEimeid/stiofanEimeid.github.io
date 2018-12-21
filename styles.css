@@ -1,0 +1,29 @@
+body {
+	font-family: raleway;
+	text-transform: uppercase;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 75px 475px 75px;
+}
+
+header {
+	 grid-column: span 12;
+     background: green;
+}
+aside {
+    grid-column: span 4;
+    background: blue;
+   
+}
+main {
+    grid-column: span 8;
+    background: red;
+}
+
+footer {
+    grid-column: span 12;
+    background: green;
+}
