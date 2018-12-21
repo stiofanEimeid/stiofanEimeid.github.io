@@ -82,3 +82,10 @@ a {
   padding: 15px;
   margin: 7.5px;
 }
+
+main>div {
+  color: white;
+  padding: 10px 20px;
+  height: 100%;
+  width: 100%;
+}
