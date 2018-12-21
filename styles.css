@@ -1,14 +1,13 @@
 body {
 	font-family: raleway;
 	text-transform: uppercase;
-	min-height: 100vh;
 }
 
 .container {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: 75px 475px 75px;
-/* 	min-height: 100vh; */
+        grid-template-rows: auto 4fr 1fr;
+	min-height: 100vh;
         margin: 0;
 }
 
