@@ -54,6 +54,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     border-top: 2px solid white;
+    flex-wrap: wrap;
 }
 
 h1 {
