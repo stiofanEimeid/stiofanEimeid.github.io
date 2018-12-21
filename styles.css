@@ -36,7 +36,7 @@ header {
 
 aside {
     background: #ccad00;
-    padding: 10px 10px;
+    display: flex;
     color: white;
    
 }
