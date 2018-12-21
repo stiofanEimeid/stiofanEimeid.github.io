@@ -35,6 +35,8 @@ main {
     background: gray;
     display: flex;
     flex: 1;
+    padding: 0 10px;
+    color: white;
 }
 
 footer {
@@ -46,5 +48,6 @@ footer {
 }
 
 h1 {
-	font-weight: bold;
+	font-weight: strong;
+	color: #ccad00;
 }
