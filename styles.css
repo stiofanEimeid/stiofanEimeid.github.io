@@ -24,6 +24,7 @@ header {
 	 grid-column: span 12;
          background: #1a1a1a;
 	 text-align: center;
+	 border-bottom: 2px solid white;
 }
 aside {
     grid-column: span 4;
@@ -47,6 +48,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-top: 2px solid white;
 }
 
 h1 {
