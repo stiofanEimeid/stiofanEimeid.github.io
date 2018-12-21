@@ -23,6 +23,10 @@ header {
 	grid-column: span 3;
 	}
 	
+aside {
+	flex-direction: column;
+	}
+	
 footer {
 	grid-column: span 3;
        }
