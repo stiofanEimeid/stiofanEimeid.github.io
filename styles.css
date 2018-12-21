@@ -22,24 +22,24 @@ body {
 
 header {
 	 grid-column: span 12;
-         background: green;
+         background: #1a1a1a;
 	 text-align: center;
 }
 aside {
     grid-column: span 4;
-    background: blue;
+    background: #ccad00;
    
 }
 main {
     grid-column: span 8;
-    background: red;
+    background: gray;
     display: flex;
     flex: 1;
 }
 
 footer {
     grid-column: span 12;
-    background: green;
+    background: #1a1a1a;
     display: flex;
     justify-content: space-around;
     align-items: center;
