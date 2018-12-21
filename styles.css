@@ -17,8 +17,6 @@ body {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
         grid-template-rows: auto 5fr 1fr;
-	min-height: 100vh;
-        margin: 0;
 }
 }
 
