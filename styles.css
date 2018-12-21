@@ -78,6 +78,10 @@ h1 {
   width: 100%;
 }
 
+.tablink:hover {
+  background-color: white;
+}
+
 a {
   padding: 15px;
   margin: 7.5px;
