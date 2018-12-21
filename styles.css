@@ -12,7 +12,7 @@ body {
   margin: 0;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 .container {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
@@ -35,6 +35,8 @@ aside {
 main {
     grid-column: span 8;
     background: red;
+    display: flex;
+    flex: 1;
 }
 
 footer {
