@@ -28,6 +28,8 @@ header {
 aside {
     grid-column: span 4;
     background: #ccad00;
+    padding: 10px 10px;
+    color: white;
    
 }
 main {
@@ -35,7 +37,7 @@ main {
     background: gray;
     display: flex;
     flex: 1;
-    padding: 0px 10px;
+    padding: 10px 10px;
     color: white;
 }
 
