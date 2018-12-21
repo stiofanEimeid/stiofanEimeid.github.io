@@ -29,6 +29,9 @@ main {
 footer {
     grid-column: span 12;
     background: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 h1 {
