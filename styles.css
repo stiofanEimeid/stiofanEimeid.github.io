@@ -15,23 +15,16 @@ body {
 @media screen and (min-width: 768px) {
 .container {
 	display: grid;
-	grid-template-columns: repeat(12, 1fr);
+	grid-template-columns: 200px 1fr;
         grid-template-rows: auto 5fr 1fr;
 	}
 	
 header {
-	grid-column: span 12;
-	}
-	
-aside {
-	grid-column: span 4;
-	}
-main {
-	grid-column: span 8;
+	grid-column: span 3;
 	}
 	
 footer {
-	grid-column: span 12;
+	grid-column: span 3;
        }
 }
 
