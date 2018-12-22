@@ -105,3 +105,12 @@ a {
 #delta {
 	background-color: gray;
 }
+
+.tabcontent {
+  animation: fadeEffect 1.5s; 
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
