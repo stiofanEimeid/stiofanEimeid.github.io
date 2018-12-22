@@ -1,9 +1,18 @@
-var btn1 = document.querySelector(".tablink:nth-of-type(1)");
-var btn2 = document.querySelector(".tablink:nth-of-type(2)");
-var btn3 = document.querySelector(".tablink:nth-of-type(3)");
-var btn4 = document.querySelector(".tablink:nth-of-type(4)");
+function openPage(pageName,elmnt,color) {
+  var i, 
+  tabcontent, 
+  tablinks;
 
-btn1.addEventListener("click", function(){ alert("hi")});
-btn2.addEventListener("click", function(){alert("hola")});
-btn3.addEventListener("click", function(){alert("bonjour")});
-btn4.addEventListener("click", function(){alert("dia duit")});
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+document.querySelector("#defaultOpen").click();
