@@ -3,7 +3,7 @@ body {
 	text-transform: uppercase;
 }
 
-* {box-sizing: border-box}
+* {box-sizing: border-box;}
 
 .container {
   display: flex;
@@ -47,6 +47,7 @@ aside {
 main {
     background: gray;
     display: flex;
+    flex-direction: column;
     flex: 1;
     color: white;
 }
