@@ -86,11 +86,10 @@ a {
   margin: 7.5px;
 }
 
-main>div {
+.tabcontent {
   color: white;
   padding: 10px 20px;
-/*   height: 100%;
-  width: 100%; */
+  flex: 1;
 }
 
 #alpha {
