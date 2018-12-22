@@ -39,7 +39,7 @@ header {
 }
 
 aside {
-    background: #ccad00;
+    background: #1a1a1a;
     display: flex;
     color: white;
    
@@ -63,7 +63,7 @@ footer {
 
 h1 {
 	font-weight: strong;
-	color: #ccad00;
+	color: white;
 }
 
 .tablink {
