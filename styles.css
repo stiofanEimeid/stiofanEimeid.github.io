@@ -93,3 +93,16 @@ main>div {
   height: 100%;
   width: 100%;
 }
+
+#alpha {
+	background-color: crimson;
+}
+#beta {
+	background-color: palegreen;
+}
+#charlie {
+	background-color: skyblue;
+}
+#delta {
+	background-color: gray;
+}
