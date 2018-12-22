@@ -67,7 +67,7 @@ h1 {
 }
 
 .tablink {
-  background-color: gray;
+  background-color: #424447;
   color: white;
   float: left;
   border: none;
@@ -79,7 +79,7 @@ h1 {
 }
 
 .tablink:hover {
-  background-color: #ccad00;
+  background-color: #acb0b7;
 }
 
 a {
