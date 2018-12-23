@@ -30,6 +30,9 @@ aside {
 footer {
 	grid-column: span 3;
        }
+.tablink {
+	height: 100%;
+	}
 }
 
 header {
