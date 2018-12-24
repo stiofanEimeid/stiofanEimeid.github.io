@@ -37,13 +37,13 @@ footer {
 }
 
 header {
-         background: #1a1a1a;
+/*          background: #1a1a1a; */
 	 text-align: center;
 	 border-bottom: 2px solid white;
 }
 
 aside {
-    background: #1a1a1a;
+/*     background: #1a1a1a; */
     display: flex;
     color: black;
    
