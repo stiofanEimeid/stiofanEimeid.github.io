@@ -45,7 +45,6 @@ header {
 aside {
 /*     background: #1a1a1a; */
     display: flex;
-    color: black;
    
 }
 main {
@@ -53,7 +52,6 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1;
-    color: black;
 }
 
 footer {
@@ -71,7 +69,6 @@ h1 {
 }
 
 .tablink {
-  background-color: #424447;
 /*   color: white; */
   float: left;
   border: none;
