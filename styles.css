@@ -37,25 +37,21 @@ footer {
 }
 
 header {
-/*          background: #1a1a1a; */
 	 text-align: center;
 	 border-bottom: 2px solid white;
 }
 
 aside {
-/*     background: #1a1a1a; */
     display: flex;
    
 }
 main {
-/*     background: gray; */
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
 footer {
-/*     background: #1a1a1a; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -69,7 +65,7 @@ h1 {
 }
 
 .tablink {
-/*   color: white; */
+  background-color: #c17272;
   float: left;
   border: none;
   outline: none;
