@@ -96,19 +96,6 @@ a {
   flex: 1;
 }
 
-#alpha {
-	background-color: crimson;
-}
-#bravo {
-	background-color: palegreen;
-}
-#charlie {
-	background-color: skyblue;
-}
-#delta {
-	background-color: gray;
-}
-
 .tabcontent {
   animation: fadeEffect 1.5s; 
 }
