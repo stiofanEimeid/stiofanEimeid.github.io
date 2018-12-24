@@ -1,7 +1,7 @@
 body {
 	font-family: raleway;
 	text-transform: uppercase;
-	background: linear-gradient(90deg, #72c1c1, #c17272);
+	background: linear-gradient(90deg, #c17272, #72c1c1);
 }
 
 * {box-sizing: border-box;}
