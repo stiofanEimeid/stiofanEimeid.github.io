@@ -65,6 +65,7 @@ h1 {
 }
 
 .tablink {
+  background-color: transparent;
   float: left;
   border: none;
   outline: none;
