@@ -1,7 +1,7 @@
 body {
 	font-family: raleway;
 	text-transform: uppercase;
-	background: linear-gradient(90deg, #c17272, #72c1c1);
+	background: linear-gradient(90deg, #de6161, #2657eb);
 }
 
 * {box-sizing: border-box;}
@@ -65,7 +65,6 @@ h1 {
 }
 
 .tablink {
-  background-color: #c17272;
   float: left;
   border: none;
   outline: none;
@@ -76,7 +75,7 @@ h1 {
 }
 
 .tablink:hover {
-  background-color: #d19595;
+  background-color: #e79090;
 }
 
 a {
