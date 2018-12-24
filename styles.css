@@ -1,6 +1,7 @@
 body {
 	font-family: raleway;
 	text-transform: uppercase;
+	background: linear-gradient(90deg, #72c1c1, #c17272);
 }
 
 * {box-sizing: border-box;}
@@ -44,19 +45,19 @@ header {
 aside {
     background: #1a1a1a;
     display: flex;
-    color: white;
+    color: black;
    
 }
 main {
-    background: gray;
+/*     background: gray; */
     display: flex;
     flex-direction: column;
     flex: 1;
-    color: white;
+    color: black;
 }
 
 footer {
-    background: #1a1a1a;
+/*     background: #1a1a1a; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -71,7 +72,7 @@ h1 {
 
 .tablink {
   background-color: #424447;
-  color: white;
+/*   color: white; */
   float: left;
   border: none;
   outline: none;
@@ -82,7 +83,7 @@ h1 {
 }
 
 .tablink:hover {
-  background-color: #acb0b7;
+  background-color: #d19595;
 }
 
 a {
@@ -91,7 +92,7 @@ a {
 }
 
 .tabcontent {
-  color: white;
+  background: white;
   padding: 10px 20px;
   flex: 1;
 }
