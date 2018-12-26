@@ -121,7 +121,7 @@ a {
   background-color: #ccad00;
 } */
 
-.hightlight::before, .highlight::after {
+.highlight::before, .highlight::after {
     box-sizing: inherit;
     content: "";
     position: absolute;
