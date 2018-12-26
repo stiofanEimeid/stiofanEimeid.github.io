@@ -88,9 +88,6 @@ a {
   background-color: white;
   padding: 10px 20px;
   flex: 1;
-}
-
-.tabcontent {
   animation: fadeEffect 1.5s; 
 }
 
