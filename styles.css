@@ -138,10 +138,10 @@ a {
 	border: 0px solid transparent;
 }
 
-.hightlight:hover::before {
+.highlight:hover::before {
     border-color: white;
   }
 
-.hightlight:hover::after {
+.highlight:hover::after {
     border-color: white;
   }
