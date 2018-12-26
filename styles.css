@@ -135,7 +135,7 @@ a {
 }
 
 .highlight::after {
-	border: 0 solid transparent;
+	border: 0px solid transparent;
 }
 
 .hightlight:hover::before {
