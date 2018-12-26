@@ -73,6 +73,7 @@ h1 {
 .tablink {
 /*   background-color: #8d8989; */
   background: none;
+  color: #1a1a1a;
   float: left;
   border: none;
   outline: none;
