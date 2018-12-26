@@ -55,6 +55,7 @@ main {
 
 footer {
     background: #1a1a1a;
+    padding: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -106,5 +107,5 @@ a {
 
 .highlight:hover {
   background-color: #ccad00;
-  border-radius: 100%;
+  border-radius: 50%;
 }
