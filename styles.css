@@ -1,7 +1,6 @@
 body {
 	font-family: raleway;
 	text-transform: uppercase;
-	background: linear-gradient(90deg, #de6161, #2657eb);
 }
 
 * {box-sizing: border-box;}
@@ -39,19 +38,23 @@ footer {
 header {
 	 text-align: center;
 	 border-bottom: 2px solid white;
+	 background: #1a1a1a;
 }
 
 aside {
     display: flex;
+    background: linear-gradient(135deg, #F3904F, #3B4371);
    
 }
 main {
+    background: transparent;
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
 footer {
+    background: #1a1a1a;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -61,7 +64,10 @@ footer {
 
 h1 {
 	font-weight: strong;
-	color: white;
+	font-size: 50px;
+	background: -webkit-linear-gradient(35deg, #F3904F, #3B4371);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .tablink {
