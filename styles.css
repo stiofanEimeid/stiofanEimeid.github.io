@@ -1,5 +1,5 @@
 body {
-	font-family: raleway;
+	font-family: 'Anton', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -36,6 +36,7 @@ footer {
 }
 
 header {
+	 font-family: raleway;
 	 text-align: center;
 	 border-bottom: 2px solid white;
 	 background: #1a1a1a;
