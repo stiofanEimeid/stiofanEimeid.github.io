@@ -35,7 +35,6 @@ footer {
 }
 
 header {
-	 font-family: raleway;
 	 text-align: center;
 	 border-bottom: 2px solid white;
 	 background: #1a1a1a;
@@ -65,6 +64,7 @@ footer {
 
 h1 {
 	font-weight: strong;
+	font-family: raleway;
 	font-size: 50px;
 	background: -webkit-linear-gradient(35deg, #F3904F, #3B4371);
 	-webkit-background-clip: text;
