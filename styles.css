@@ -174,3 +174,15 @@ img {
   position: relative;
   z-index: 10;
 }
+
+.red {
+  border-bottom: 5px solid #F3904F;
+}
+
+.green {
+  border-bottom: 5px solid #3B4371;
+}
+
+.blue {
+  border-bottom: 5px solid skyblue;
+}
