@@ -65,7 +65,6 @@ footer {
 h1, h6 {
 	font-weight: strong;
 	font-family: "Amatic SC", Times;
-	font-size: 50px;
 	background: -webkit-linear-gradient(35deg, #F3904F, #3B4371);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
