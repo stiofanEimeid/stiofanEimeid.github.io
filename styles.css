@@ -64,7 +64,7 @@ footer {
 
 h1 {
 	font-weight: strong;
-	font-family: raleway;
+	font-family: "Amatic SC", Times;
 	font-size: 50px;
 	background: -webkit-linear-gradient(35deg, #F3904F, #3B4371);
 	-webkit-background-clip: text;
@@ -75,6 +75,7 @@ h1 {
 /*   background-color: #8d8989; */
   background: none;
   color: #1a1a1a;
+  font-weight: strong;
   float: left;
   border: none;
   outline: none;
