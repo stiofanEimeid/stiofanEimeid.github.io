@@ -141,7 +141,7 @@ a {
 }
 
 .highlight::before {
-	border: 2.5px solid transparent;
+	border: 2px solid transparent;
 }
 
 .highlight::after {
