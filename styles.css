@@ -1,5 +1,6 @@
 body {
 	font-family: 'Anton', sans-serif;
+	overflow: hidden;
 }
 
 html {
@@ -44,6 +45,7 @@ nav {
 main {
     background: white;
     flex: 1;
+    overflow: scroll;
 }
 
 h1, h6 {
