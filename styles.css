@@ -178,3 +178,11 @@ img {
 .blue {
   border-bottom: 5px solid skyblue;
 }
+
+ .float {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
