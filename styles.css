@@ -274,3 +274,13 @@ img {
 
 /*carousel code ends */
 
+.profilepic {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.profilepic>img {
+	border-radius: 10px;
+	max-width: 100%;
+	object-fit: contain;
+}
