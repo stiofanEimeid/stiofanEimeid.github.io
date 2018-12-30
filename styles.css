@@ -204,6 +204,8 @@ img {
   border-bottom-left-radius: 10px;
   position: relative; 
   margin: 0 auto; 
+  background-color: #1a1a1a;
+	
 }
 
 .slide>img {
