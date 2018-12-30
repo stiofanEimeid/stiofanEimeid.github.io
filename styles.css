@@ -40,13 +40,13 @@ header {
 nav {
     display: flex;
     background: linear-gradient(135deg, #F3904F, #3B4371);
-    overflow: scroll;
+    overflow: auto;
    
 }
 main {
     background: white;
     flex: 1;
-    overflow: scroll;
+    overflow: auto;
 }
 
 h1, h6 {
