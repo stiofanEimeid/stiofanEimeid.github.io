@@ -94,13 +94,17 @@ h6 {
 
 .section .main {
 	flex: 0 0 50%;
-	padding: 20px;
+/* 	padding: 20px; */
 	overflow: hidden;
 }
 
 .section .complimentary {
 	flex: 0 0 50%;
  }
+}
+
+.section .main {
+	padding: 20px;
 }
 
 .section .complimentary {
