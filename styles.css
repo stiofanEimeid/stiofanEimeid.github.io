@@ -293,4 +293,9 @@ img {
 	font-size: 1em;
 	padding: 4px 0;
 	}	
+	 
+	.tablink {
+	height: 60px;
+	font-size: 1em;
+	 }
 }
