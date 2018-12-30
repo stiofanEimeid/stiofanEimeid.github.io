@@ -90,18 +90,18 @@ h6 {
 	display: flex;
 }
 
-.section, .main {
+.section .main {
 	flex: 0 0 50%;
 	padding: 20px;
 	overflow: hidden;
 }
 
-.section, .complimentary {
+.section .complimentary {
 	flex: 0 0 50%;
  }
 }
 
-.section, .complimentary {
+.section .complimentary {
 	background-color: lightgrey;
 	padding: 20px;
 }
