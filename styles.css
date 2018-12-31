@@ -89,6 +89,13 @@ nav a {
   background-color: #e79090;
 }
 
+.break {
+	margin-top: 40px;
+	width:  100px;
+	height: 2px;
+	background: #000;
+}
+
 /* a {
   padding: 15px;
   margin: 7.5px;
