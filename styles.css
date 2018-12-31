@@ -334,6 +334,7 @@ nav {
 		flex: 0 0 400px;
 	 }
 	.break {
+		display: block;
 		margin-top: 40px;
 		width:  100px;
 		height: 2px;
