@@ -67,7 +67,6 @@ nav a {
   border: none;
   outline: none;
   cursor: pointer;
-/*   padding: 14px 16px; */
   font-size: 1.3em;
   width: 100%;
   height: 100%;
@@ -101,6 +100,48 @@ span.quote {
 	padding: 20px;
 }
 
+
+img {
+  position: relative;
+  z-index: 10;
+}
+
+.red {
+  border-bottom: 5px solid #F3904F;
+}
+
+.green {
+  border-bottom: 5px solid #3B4371;
+}
+
+.blue {
+  border-bottom: 5px solid skyblue;
+}
+
+ .float {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+
+#fcc {
+  border-radius: 50%;
+}
+
+.profilepic {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.profilepic>img {
+	border-radius: 10px;
+	max-width: 100%;
+	object-fit: contain;
+}
+
+/* highlight code begins */
 
 .highlight {
 	height: 100px;
@@ -153,34 +194,8 @@ span.quote {
     border-left-width 0s linear 0.35s;
   }
 
-img {
-  position: relative;
-  z-index: 10;
-}
+/* icon highlight code ends */
 
-.red {
-  border-bottom: 5px solid #F3904F;
-}
-
-.green {
-  border-bottom: 5px solid #3B4371;
-}
-
-.blue {
-  border-bottom: 5px solid skyblue;
-}
-
- .float {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 30px;
-  }
-
-#fcc {
-  border-radius: 50%;
-}
 
 /*carousel code begins */
 
@@ -246,36 +261,12 @@ img {
 .buttonContainer{
   display: flex;
   justify-content: center;
-  margin-top: 2px;
+  margin-top: 5px;
 }
 
  .slider>.hide {
   display: none;
  }
-
-
-#playBtn, #pauseBtn {
-  background-color: none;
-  color: black;
-  border: none;
-  padding: 5px;
-  outline: none;
-  font-size: 20px;
-  margin: 5px;
-}
-
-/*carousel code ends */
-
-.profilepic {
-	text-align: center;
-	margin-top: 10px;
-}
-
-.profilepic>img {
-	border-radius: 10px;
-	max-width: 100%;
-	object-fit: contain;
-}
 
 label {
     display: block;
@@ -298,6 +289,9 @@ label {
       border-style: solid;
       border-width: 18.5px 0 18.5px 30px;
     }
+
+/*carousel code ends */
+
 
 @media only screen and (min-width: 992px) {
 .container {
