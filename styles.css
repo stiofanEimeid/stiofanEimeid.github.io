@@ -148,7 +148,7 @@ span.quote {
     border-left-width 0s linear 0.35s;
   }
 
-.top {
+img {
   position: relative;
   z-index: 10;
 }
