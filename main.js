@@ -6,8 +6,7 @@ var nextBtn = document.getElementById("nextBtn");
 var prevBtn = document.getElementById("prevBtn");
 var playBtn = document.getElementById("playBtn");
 var pauseBtn = document.getElementById("pauseBtn");
-let counter = 1;
-var play = true;
+var counter = 1;
 var myInterval;
 var play = document.getElementById("playpause");
 
