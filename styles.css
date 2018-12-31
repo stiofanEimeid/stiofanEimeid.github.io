@@ -194,6 +194,10 @@ h6 {
     padding: 30px;
   }
 
+#fcc {
+  border-radius: 50%;
+}
+
 /*carousel code begins */
 
 .slider {
