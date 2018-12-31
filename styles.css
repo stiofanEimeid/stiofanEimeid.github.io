@@ -16,22 +16,6 @@ html {
   margin: 0;
 }
 
-@media only screen and (min-width: 992px) {
-.container {
-	display: grid;
-	grid-template-columns: 150px 1fr;
-        grid-template-rows: auto 1fr;
-	}
-	
-header {
-	grid-column: span 3;
-	}
-	
-nav {
-	flex-direction: column;
-	}
-}
-
 header {
 	 text-align: center;
 	 background: #1a1a1a;
@@ -102,26 +86,6 @@ span.quote {
   font-size: 1.25rem;
 }
 
-/* a {
-  padding: 15px;
-  margin: 7.5px;
-} */
-
-@media only screen and (min-width: 992px) {
-.section {
-	display: flex;
-}
-
-.section .main {
-	flex: 1;
-/* 	padding: 20px; */
-	overflow: hidden;
-}
-
-.section .complimentary {
-	flex: 0 0 400px;
- }
-}
 
 .section .main {
 	padding: 20px;
@@ -144,10 +108,6 @@ span.quote {
 	position: relative;
 }
 
-
-/* .highlight:hover {
-  background-color: #ccad00;
-} */
 
 .highlight::before, .highlight::after {
     box-sizing: inherit;
@@ -334,6 +294,22 @@ label {
       border-width: 18.5px 0 18.5px 30px;
     }
 
+@media only screen and (min-width: 992px) {
+.container {
+	display: grid;
+	grid-template-columns: 150px 1fr;
+        grid-template-rows: auto 1fr;
+	}
+	
+header {
+	grid-column: span 3;
+	}
+	
+nav {
+	flex-direction: column;
+	}
+}
+
  @media (max-width: 768px) {
 	header {
 	font-size: 1em;
@@ -343,6 +319,23 @@ label {
 	nav a {
 	flex: 1;
 	 }
+}
+
+
+
+@media only screen and (min-width: 992px) {
+.section {
+	display: flex;
+}
+
+.section .main {
+	flex: 1;
+	overflow: hidden;
+}
+
+.section .complimentary {
+	flex: 0 0 400px;
+ }
 }
 
  @media (max-height: 400px) {
