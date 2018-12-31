@@ -282,6 +282,7 @@ label {
   #playpause {
     position: absolute;
     display: none;
+    box-shadow: none;
 }
 
     #playpause:checked + label {
