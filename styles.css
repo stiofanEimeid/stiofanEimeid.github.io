@@ -198,7 +198,7 @@ img {
 
 .slider {
   width: 80%;
-  height: 300px;
+  height: 400px;
   overflow: hidden;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -211,7 +211,7 @@ img {
 .slide>img {
   float: left;
   width: 10%;
-  height: 300px;
+  height: 400px;
   object-fit: contain;
 
 }
