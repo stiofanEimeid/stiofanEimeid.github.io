@@ -9,6 +9,7 @@ var pauseBtn = document.getElementById("pauseBtn");
 let counter = 1;
 var play = true;
 var myInterval;
+var play = document.getElementById("playpause");
 
 
 //hiding visibility
@@ -77,22 +78,30 @@ carouselSlide.addEventListener("transitionend", function(){
      slideRight();
       };
 
-playBtn.addEventListener("click", function() {
-  if(play){
-    myInterval=setInterval(myFunction, 3000);
-    play = false;
-    playBtn.style.color = "#ccad00";
-    pauseBtn.style.color = "black";
-  }
-  else return;
-});
+   play.addEventListener("change", function(){
+        if(this.checked != true){
+          myInterval=setInterval(myFunction, 3000);
+        } else 
+          clearInterval(myInterval);
+        
+        });
 
-pauseBtn.addEventListener("click", function() {
-    clearInterval(myInterval);
-    play = true;
-    playBtn.style.color = "black";
-    pauseBtn.style.color = "#ccad00";
-});
+// playBtn.addEventListener("click", function() {
+//   if(play){
+//     myInterval=setInterval(myFunction, 3000);
+//     play = false;
+//     playBtn.style.color = "#ccad00";
+//     pauseBtn.style.color = "black";
+//   }
+//   else return;
+// });
+
+// pauseBtn.addEventListener("click", function() {
+//     clearInterval(myInterval);
+//     play = true;
+//     playBtn.style.color = "black";
+//     pauseBtn.style.color = "#ccad00";
+// });
 
 // arrow-key navigation:
 
