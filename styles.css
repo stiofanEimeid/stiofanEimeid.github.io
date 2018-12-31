@@ -78,10 +78,7 @@ nav a {
 }
 
 .break {
-	margin-top: 40px;
-	width:  100px;
-	height: 2px;
-	background: #000;
+	display: none;
 }
 
 span.quote {
@@ -324,18 +321,24 @@ nav {
 
 
 @media only screen and (min-width: 992px) {
-.section {
-	display: flex;
-}
+	.section {
+		display: flex;
+	}
 
-.section .main {
-	flex: 1;
-	overflow: hidden;
-}
+	.section .main {
+		flex: 1;
+		overflow: hidden;
+	}
 
-.section .complimentary {
-	flex: 0 0 400px;
- }
+	.section .complimentary {
+		flex: 0 0 400px;
+	 }
+	.break {
+		margin-top: 40px;
+		width:  100px;
+		height: 2px;
+		background: #000;
+	}
 }
 
  @media (max-height: 400px) {
