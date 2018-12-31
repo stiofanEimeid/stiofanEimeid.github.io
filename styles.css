@@ -1,10 +1,12 @@
 body {
 	font-family: 'Anton', sans-serif;
 	overflow: hidden;
+	position: relative;
 }
 
 html {
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 *, *:before, *:after  {box-sizing: inherit;}
