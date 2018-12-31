@@ -258,6 +258,7 @@ h6 {
 .buttonContainer{
   display: flex;
   justify-content: center;
+  margin-top: 2px;
 }
 
  .slider>.hide {
@@ -287,6 +288,29 @@ h6 {
 	max-width: 100%;
 	object-fit: contain;
 }
+
+label {
+    display: block;
+    box-sizing: border-box;
+    width: 0;
+    height: 37px;
+    border-color: transparent transparent transparent #1a1a1a;
+    /*transition: 100ms all ease;*/
+    cursor: pointer;
+    border-style: double;
+    border-width: 0px 0 0px 30px;
+    margin: 0 auto;
+  }
+
+  #playpause {
+    position: absolute;
+    display: none;
+}
+
+    #playpause:checked + label {
+      border-style: solid;
+      border-width: 18.5px 0 18.5px 30px;
+    }
 
  @media (max-width: 768px) {
 	header {
