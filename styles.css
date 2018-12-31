@@ -10,8 +10,9 @@ html {
 *, *:before, *:after  {box-sizing: inherit;}
 
 .container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: auto auto 1fr;
   height:100vh;
   margin: 0;
 }
@@ -26,13 +27,13 @@ nav {
     display: flex;
     background: linear-gradient(135deg, #F3904F, #3B4371);
     justify-content: space-around;
-    overflow: scroll;
+    overflow: auto;
    
 }
 main {
     background: white;
     flex: 1;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 h1, h6 {
@@ -296,7 +297,6 @@ label {
 
 @media only screen and (min-width: 992px) {
 .container {
-	display: grid;
 	grid-template-columns: 150px 1fr;
         grid-template-rows: auto 1fr;
 	}
@@ -348,6 +348,6 @@ nav {
   }
 
   .container {
-    grid-template-rows: 1fr;
+    grid-template-rows: auto 1fr;
   }
  }
