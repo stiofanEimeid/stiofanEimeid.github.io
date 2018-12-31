@@ -7,7 +7,7 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after  {box-sizing: border-box;}
+*, *:before, *:after  {box-sizing: inherit;}
 
 .container {
   display: flex;
@@ -41,18 +41,18 @@ header {
 nav {
     display: flex;
     background: linear-gradient(135deg, #F3904F, #3B4371);
-    overflow: auto;
+    justify-content: space-around;
+    overflow: scroll;
    
 }
 main {
     background: white;
     flex: 1;
-    overflow: auto;
+    overflow: scroll;
 }
 
 h1, h6 {
-	font-weight: strong;
-/* 	font-family: "Amatic SC", Times; */
+/* 	font-weight: strong; */
 	background: -webkit-linear-gradient(35deg, #F3904F, #3B4371);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -78,7 +78,7 @@ nav a {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+/*   padding: 14px 16px; */
   font-size: 1.3em;
   width: 100%;
   height: 100%;
@@ -305,7 +305,6 @@ label {
     width: 0;
     height: 37px;
     border-color: transparent transparent transparent #1a1a1a;
-    /*transition: 100ms all ease;*/
     cursor: pointer;
     border-style: double;
     border-width: 0px 0 0px 30px;
