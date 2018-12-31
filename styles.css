@@ -169,7 +169,7 @@ h6 {
     border-left-width 0s linear 0.35s;
   }
 
-img {
+.top {
   position: relative;
   z-index: 10;
 }
