@@ -85,22 +85,7 @@ carouselSlide.addEventListener("transitionend", function(){
         
         });
 
-// playBtn.addEventListener("click", function() {
-//   if(play){
-//     myInterval=setInterval(myFunction, 3000);
-//     play = false;
-//     playBtn.style.color = "#ccad00";
-//     pauseBtn.style.color = "black";
-//   }
-//   else return;
-// });
 
-// pauseBtn.addEventListener("click", function() {
-//     clearInterval(myInterval);
-//     play = true;
-//     playBtn.style.color = "black";
-//     pauseBtn.style.color = "#ccad00";
-// });
 
 // arrow-key navigation:
 
